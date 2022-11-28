@@ -4,31 +4,44 @@
     box-sizing: border-box;
 
 }
-
-    
-
 body {
-   background: url(stade.jpg);
-   
+    background: url(stade.jpg);
     background-size: cover; 
-    
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-
 .menu-fifa{
     background: rgba(37, 60, 124, 0.687);
-    text-align: center;
+    /*text-align: center;*/
     margin-left: 0;
-    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 220px;
+   
+}
+.logo{
+    width: 25%;
+}
+.main-menu{
+  
+    float: right;
+    padding: 30px;
+    align-content: center;
+    width: 75%;
+   
+    
 }
 
 .menu-fifa ul {         
     display: inline-flex;
     list-style: none;
      color:aliceblue;
-     margin-top: 120px; 
+     margin-top: 120px
+     ;
+    
+    
+     
 }
 .menu-fifa ul li {
     width: 140px;
